@@ -1,0 +1,336 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Vladimir Ksenic CV - Backgrounds</title>
+    <meta name="author" content="Vladimir Ksenic">
+    <meta name="description" content="pagePiling.js plugin by Alvaro Trigo.">
+    <meta name="keywords" content="pile,piling,piling.js,stack,pages,scrolling,stacking,touch,fullpile,scroll,plugin,jquery">
+    <meta name="Resource-type" content="Document">
+
+    <link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.pagepiling.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../jquery.pagepiling.css">
+    <link rel="stylesheet" type="text/css" href="examples.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <script type="text/javascript" src="../jquery.pagepiling.min.js"></script>
+
+    <script type="text/javascript">
+        var deleteLog = false;
+
+
+        $(document).ready(function() {
+            $('#pagepiling').pagepiling({
+                menu: '#menu',
+                anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+                navigation: {
+                    'textColor': '#f2f2f2',
+                    'bulletsColor': '#ccc',
+                    'position': 'right',
+                    'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4', 'page5', 'page6']
+                }
+            });
+        });
+
+    </script>
+
+    <style>
+        /* Style for our header texts
+	 --------------------------------------- */
+        h1 {
+            font-size: 5em;
+            font-family: arial, helvetica;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Centered texts in each section
+	--------------------------------------- */
+        .section {
+            text-align: center;
+        }
+
+
+
+        /* Layer with position absolute in order to have it over the video
+		* --------------------------------------- */
+        #section1 .layer {
+            position: absolute;
+            z-index: 5;
+            width: 100%;
+            left: 0;
+            top: 43%;
+            height: 100%;
+        }
+
+        #section1 h1 {
+            color: #fff;
+        }
+
+        #infoMenu li a {
+            color: #fff;
+        }
+
+        /* Backgrounds will cover all the section
+	* --------------------------------------- */
+        #section1,
+        #section2,
+        #section3,
+        #section4,
+        #section5,
+        #section6,
+        #section7 {
+            background-size: cover;
+        }
+
+        /* Defining each section background and styles
+	* --------------------------------------- */
+        #section1 {
+            background-image: url(Image/nature-3151869_1920.jpg);
+        }
+
+        #section2 {
+            background-image: url(imgs/bg2.jpg);
+            padding: 6% 0 0 0;
+        }
+
+        #section3 {
+            background-image: url(Image/V.Kseni%C4%8D%20CV1%20.webp);
+            padding: 6% 0 0 0;
+
+        }
+
+        #section4 {
+            background-image: url(Image/photo-1461722936851-13a79b294a5d.jpeg);
+            padding: 6% 0 0 0;
+        }
+
+        #section5 {
+            background-image: url(imgs/pagePiling-plugin.png);
+            padding: 6% 0 0 0;
+        }
+
+        #section6 {
+            background-image: url(Image/thong-vo-2482-unsplash.jpg);
+            padding: 6% 0 0 0;
+        }
+
+        #section4,
+        h1 {
+            color: #000;
+        }
+
+
+
+        #section1 h1 {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: 120px;
+            color: #fff;
+        }
+
+        #section1 h3,
+            {
+            text-shadow: 1px 5px 20px #000;
+            color: #fff;
+            text-align: center;
+
+        }
+
+        #section2 .intro {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: 30px;
+        }
+
+        #section2 h1,
+        #section2 p {
+            text-shadow: 1px 5px 20px #000;
+        }
+
+
+        #section3 p {
+            text-shadow: 1px 5px 20px #000;
+            color: #fff;
+            text-align: center;
+        }
+
+        #infoMenu li a {
+            color: #fff;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <button id="arrow">
+        <span>▲Back</span>
+    </button>
+    <script>
+        $('#arrow').click(function() {
+            $.fn.pagepiling.moveSectionUp();
+        });
+
+    </script>
+
+
+    <ul id="menu">
+        <li data-menuanchor="page1" class="active"><a href="#page1"><i class="fa fa-user w3-small"></i> O mne</a></li>
+        <li data-menuanchor="page2"><a href="#page2"><i class="fa fa-briefcase w3-small"></i> Zručnosti</a></li>
+        <li data-menuanchor="page3"><a href="#page3"><i class="fa fa-calendar w3-small"></i> Životopis</a></li>
+        <li data-menuanchor="page4"><a href="#page4"><i class="fa fa-download w3-small"></i> Formulár</a></li>
+        <li data-menuanchor="page5"><a href="#page5"><i class="fa fa-download w3-small"></i> Kontakt</a></li>
+        <!--li data-menuanchor="page6"><a href="#page6"><i class="fa fa-download w3-small"></i> </a></li-->
+
+    </ul>
+
+
+
+    <!-- a class="w3-bar-item w3-button w3-hover-white" href="#Omne" style="width:25% !important"><i class="fa fa-user w3-small"></i> O mne</a>
+			<a class="w3-bar-item w3-button w3-hover-white" href="#Zručnosti" style="width:25% !important"><i class="fa fa-briefcase w3-small"></i> Zručnosti</a>
+			<a class="w3-bar-item w3-button w3-hover-white" href="#Form" style="width:25% !important"><i class="fa fa-download w3-small"></i> Formulár</a>
+			<a class="w3-bar-item w3-button w3-hover-white" href="#Fotky" style="width:25% !important"><i class="fa fa-eye w3-small"></i> Fotky</a>
+			<a class="w3-bar-item w3-button w3-hover-white" href="#MyCV" style="width:25% !important"><i class="fa fa-calendar w3-small"></i> Životopis</a>
+			<a class="w3-bar-item w3-button w3-hover-white" href="#Test" style="width:25% !important"><i class="fa fa-asterisk w3-small"></i> Ohlasy</a>
+			<a class="w3-bar-item w3-button w3-hover-white" href="#Music" style="width:25% !important"><i class="fa fa-music w3-small"></i> Hudba</a>
+			<a class="w3-bar-item w3-button w3-hover-white" href="#footer" style="width:25% !important"><i class="fa fa-globe w3-small"></i> Kontakt</a>
+			<!--a class="w3-bar-item w3-button w3-hover-white" href="#Domov" style="width:25% !important"><i class="fa fa-arrow-left w3-small"></i> Návrat</a-->
+
+
+
+
+
+
+
+    <div id="pagepiling">
+
+
+        <div class="section" id="section1">
+            <div class="intro">
+                <h1>Hi!</h1>
+                <br><br><br><br>
+                <img src="./Image/john_doe.jpg" class="rounded" alt="me" style="width:130px;height:100px" title="I'm V.Ksenic."><br><br>
+                <em style='content;font-size:10px;color:#fff;text-shadow:2px 2px 4px #000000'>Nothing in the world belongs to us, only our time.</em><br><br>
+
+                <p style='content;w3-wide;font-size:15px;color:#fff;text-shadow:2px 2px 4px #000000' id="demo">I am a front-end developer based in Kosice, Slovakia with years of experience in developing complex websites and applications.I am especially interested in new technologies, new frameworks and programming languages. As a web developer, I specialize in creating websites and scalable front-end architectures.<br> I believe in teamwork and an open-source community. I'm a programmer and an IT person overall.
+                    <button class="content" type="button" onclick='document.getElementById("demo").innerHTML = "Som front-end vývojár so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami s vývojom komplexných webových stránok a aplikácií. Zaujímajú ma najmä nové technológie, nové rámce a programovacie jazyky. Ako webový vývojár sa špecializujem na vytváranie webových stránok a škálovateľných front-end architektúr. Verím v tímovú prácu a komunitu s otvoreným zdrojom kódu. Som programátor a celkovo IT človek."'>Svk text <img src="./Image/sk.png" height="25px" width="28px"></button>
+
+
+
+                    <!--h1 style="font-size:50px;color:#fff;text-shadow:2px 2px 4px #000000;"> Nothing in the world belongs to us the only time </h1>
+			< h2 style="color:#fff;text-shadow:2px 2px 4px #000000;"><q> Nothing in the world belongs to us the only time </q></h2-->
+                </p>
+
+            </div>
+
+
+        </div>
+        <div class="section" id="section2">
+            <div class="content">
+                <h1> Skills</h1>
+                <!--hr class="w3-padding-60" style="width:"-->
+
+                <p class="w3-wide">Bootstrap 3,4 &amp; Css &amp;Html 5 &amp; Jquery</p>
+                <div class="w3-white">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:99%"></div>
+                    </div>
+                </div>
+                <p class="w3-wide">Javascript &amp; React &amp; Typescript</p>
+                <div class="w3-white">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:95%"></div>
+                    </div>
+                </div>
+                <p class="w3-wide">Python</p>
+                <div class="w3-white">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue " style="width:90%"></div>
+                    </div>
+                </div>
+
+                <p class="w3-wide">Java</p>
+                <div class="w3-white">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:85%"></div>
+                    </div>
+                    <p class="w3-wide w3-text-grey">Sass &amp; Php</p>
+                    <div class="w3-white">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue " style="width:75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="content">
+
+                <!--h1>Just terrific!</h1-->
+                <!--p>Use the power of images</p-->
+
+
+        </div>
+    </div>
+    <!-- About Section form -->
+    <div class="section" id="section4">
+        <div class="content w3-center w3-justify w3-text-black w3-padding-14">
+            <h2 style="color:#fff;text-shadow:2px 2px 4px #000000;"><i class=" fa fa-download"></i> Formulár napíšte mi</h2>
+
+            <br><br><br>
+
+            <div class="container" id="ff-compose"></div>
+            <script async defer src="https://formfacade.com/include/111026483964178072025/form/1FAIpQLSdaEwPNkjfxIs355DzC0fKGsF-cBevux9Ls1DgLCr_rsgJMlQ/bootstrap.js?div=ff-compose"></script>
+        </div>
+    </div>
+
+
+    <!--p>My normal website</p>
+				<p>My normal website</p>
+				<p>My normal website</p>
+				<p>My normal website</p>
+				<p>My normal website</p>
+				<p>My normal website</p>
+				<p>My normal website</p>
+				<p>My normal website</p-->
+
+
+
+    <div class="section" id="section5">
+        <div class="intro">
+            <h1>Just terrific!</h1>
+            <p>Use the power of images</p>
+
+        </div>
+    </div>
+
+
+    <!--div class="section" id="section6">
+		<div class="content"></div>
+		<!--div class="intro"-->
+    <!--h1>Just terrific!</h1-->
+    <!--p>Use the power of images</p-->
+
+
+    </div>
+
+
+
+</body>
+
+</html>
