@@ -4,11 +4,13 @@
   "description": "Create a scrolling pile of sections",
   "main": "jquery.pagepiling.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo Error: no test specified && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/alvarotrigo/pagePiling.js.git"
+    "url":"https://github.com/Jolana1/ksenicv.git"       /* "git+ssh://git@github.com/alvarotrigo/pagePiling.js.git"*/
+
+
   },
   "keywords": [
     "jquery",
@@ -17,14 +19,14 @@
     "sections",
     "slides"
   ],
-  "authors": [
-    "Alvaro Trigo https://github.com/alvarotrigo"
+  /*"authors": [
+    " https://github.com/alvarotrigo"*/
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alvarotrigo/pagePiling.js/issues"
+   /* "url": "https://github.com/Ladow/ksenicv/pagePiling.js/issues"*/
   },
-  "homepage": "https://github.com/alvarotrigo/pagePiling.js#readme",
+  "homepage": "https://github.com/Jolana1/ksenicv.git",
   "namespace": "$.fn.pagepiling",
   "devDependencies": {
     "gulp": "^3.9.0",
